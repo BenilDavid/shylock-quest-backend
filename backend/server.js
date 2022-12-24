@@ -20,9 +20,9 @@ app.use(cors({
 }));
 app.use("/api/submit-form",formRoutes);
 // routes
-// app.get("/", (req, res) => {
-//     res.send("Hello world");
-// })
+app.get("/", (req, res) => {
+    res.send("Hello world");
+})
 
 const startServer = async () => {
     try {
