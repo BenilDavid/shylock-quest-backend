@@ -5,7 +5,7 @@ const connectDB = require('./config/connectDB');
 const formRoutes = require('./routes/formRoutes');
 const cors = require('cors');
 
-const Form = require('./model/formModel');
+const Twitter = require('twitter-api-v2');
 
 const express = require('express');
 const app = express();
@@ -21,8 +21,21 @@ app.use(cors({
 app.use("/api/submit-form",formRoutes);
 // routes
 app.get("/", (req, res) => {
-    res.send("Hello world");
+    res.send("all db stored data coming soon..");
 })
+
+// const consumerKey = 'YOUR_CONSUMER_KEY';
+// const consumerSecret = 'YOUR_CONSUMER_SECRET';
+// const accessToken = 'YOUR_ACCESS_TOKEN';
+// const accessTokenSecret = 'YOUR_ACCESS_TOKEN_SECRET';
+
+
+
+
+
+
+
+
 
 const startServer = async () => {
     try {
