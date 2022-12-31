@@ -2,9 +2,13 @@ const mongoose = require("mongoose");
 
 const formSchema = mongoose.Schema(
     {
-      twitter: {  
+      metamaskId: {  
         type: String,
-        required: [true, "please add a task"]
+        required: true
+    }, 
+     twitter: {  
+        type: Object,
+        required: true
     },
     answer: {
         type: String,
