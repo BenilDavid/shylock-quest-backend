@@ -2,14 +2,14 @@ const mongoose = require("mongoose");
 
 const formSchema = mongoose.Schema(
     {
-      metamaskId: {  
-        type: String,
-        required: true
-    }, 
      twitter: {  
         type: Object,
         required: true
     },
+    metamaskId: {  
+        type: String,
+        required: true
+    }, 
     answer: {
         type: String,
         required: true,
