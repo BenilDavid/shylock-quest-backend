@@ -3,10 +3,18 @@ const mongoose = require("mongoose");
 const formSchema = mongoose.Schema(
     {
         twitter: {
-            type: mongoose.Schema.Types.Mixed,
-            required: true
+            type: Object,
+            required: false
+        },
+         twitterUserName: {
+            type: String,
+            required: false
         },
         metamaskId: {
+            type: String,
+            required: true
+        }, 
+        walletAmount: {
             type: String,
             required: true
         },
