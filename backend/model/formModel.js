@@ -6,22 +6,63 @@ const formSchema = mongoose.Schema(
             type: Object,
             required: false
         },
-         twitterUserName: {
+        twitterUserName: {
             type: String,
+            required: false
+        },
+        currentChapterCount: {
+            type: Number,
             required: false
         },
         metamaskId: {
             type: String,
             required: true
-        }, 
+        },
         walletAmount: {
             type: String,
             required: true
         },
-        answer: {
+        chapterOneAnswer: {
             type: String,
-            required: true,
+            required: false,
         },
+        chapterTwoAnswer: {
+            type: String,
+            required: false,
+        },
+        chapterThreeAnswer: {
+            type: String,
+            required: false,
+        },
+        chapterFourAnswer: {
+            type: String,
+            required: false,
+        },
+        chapterFiveAnswer: {
+            type: String,
+            required: false,
+        },
+        chapterSixAnswer: {
+            type: String,
+            required: false,
+        },
+        chapterSevenAnswer: {
+            type: String,
+            required: false,
+        },
+        chapterEightAnswer: {
+            type: String,
+            required: false,
+        },
+        chapterNineAnswer: {
+            type: String,
+            required: false,
+        },
+        chapterTenAnswer: {
+            type: String,
+            required: false,
+        },
+
         alias: {
             type: String,
             required: true,
