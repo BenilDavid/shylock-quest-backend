@@ -8,7 +8,7 @@ const formSchema = mongoose.Schema(
         },
         twitterUserName: {
             type: String,
-            required: false
+            required: true
         },
         currentChapterCount: {
             type: Number,
