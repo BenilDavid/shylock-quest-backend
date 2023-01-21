@@ -22,47 +22,46 @@ const formSchema = mongoose.Schema(
             type: String,
             required: true
         },
-        chapterOneAnswer: {
+        answerOne: {
             type: String,
             required: false,
         },
-        chapterTwoAnswer: {
+        answerTwo: {
             type: String,
             required: false,
         },
-        chapterThreeAnswer: {
+        answerThree: {
             type: String,
             required: false,
         },
-        chapterFourAnswer: {
+        answerFour: {
             type: String,
             required: false,
         },
-        chapterFiveAnswer: {
+        answerFive: {
             type: String,
             required: false,
         },
-        chapterSixAnswer: {
+        answerSix: {
             type: String,
             required: false,
         },
-        chapterSevenAnswer: {
+        answerSeven: {
             type: String,
             required: false,
         },
-        chapterEightAnswer: {
+        answerEight: {
             type: String,
             required: false,
         },
-        chapterNineAnswer: {
+        answerNine: {
             type: String,
             required: false,
         },
-        chapterTenAnswer: {
+        answerTen: {
             type: String,
             required: false,
         },
-
         alias: {
             type: String,
             required: true,
