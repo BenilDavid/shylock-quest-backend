@@ -11,7 +11,7 @@ const formSchema = mongoose.Schema(
             required: true
         },
         currentChapterCount: {
-            type: Number,
+            type: String,
             required: false
         },
         metamaskId: {
